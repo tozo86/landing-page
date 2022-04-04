@@ -48,14 +48,15 @@ body {
 
 .header li {
     list-style-type: none;
-
 }
 
 .header a {
     text-decoration: none;
     color: #E5E7EB;
+}
 
-
+.header a:hover {
+    text-decoration: underline;
 }
 
 /*HEAD CONTENT */
@@ -105,6 +106,7 @@ button {
     font-size: 18px;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
 
 
